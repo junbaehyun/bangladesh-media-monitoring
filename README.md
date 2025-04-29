@@ -34,54 +34,47 @@ A Python-based scraper that automatically collects and filters recent news artic
 ```bash
 git clone https://github.com/junbaehyun/bangladesh-media-monitoring.git
 cd bangladesh-media-monitoring
-2. Set up a virtual environment (optional but recommended)
-bash
-Copy
-Edit
+```
+
+
+### 2. Set up a virtual environment (optional but recommended)
+```bash
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-3. Create your Google service account key
-Download the service_account.json file from your Google Cloud project
+```
 
-Place it in this project directory (do not upload to GitHub!)
+### 3. Create your Google service account key
+1. Download the service_account.json file from your Google Cloud project
+2. Place it in this project directory (do not upload to GitHub!)
 
-4. Run the scraper
-bash
-Copy
-Edit
+
+### 4. Run the scraper
+```bash
 python scraper.py
-🔐 Important
+```
+
+### 🔐 Important
 Make sure .gitignore includes your service_account.json and .venv/
 
 Do not upload secrets to GitHub
 
-📦 Dependencies
+### 📦 Dependencies
 feedparser
-
 gspread
-
 oauth2client
-
 pandas
 
 Install them with:
 
-bash
-Copy
-Edit
+```bash
 pip install -r requirements.txt
-✍️ Author
+```
+
+### ✍️ Author
 Junbae Hyun
 
 GitHub: @junbaehyun
 
-yaml
-Copy
-Edit
-
----
-
-Would you like me to generate the matching `requirements.txt` file next? (So others can install dependencies in one line.)
 
 <img width="1887" alt="image" src="https://github.com/user-attachments/assets/f7ff301a-3713-4f31-9c7d-4798a6ce17f0" />
