@@ -2,10 +2,7 @@
 
 it can generate media monitoring automatically 
 
-ate:
-markdown
-Copy
-Edit
+
 # 🇧🇩 Bangladesh Media Monitoring
 
 A Python-based scraper that automatically collects and filters recent news articles about **Bangladesh** from **Google News**, and sends them to a connected **Google Sheet** for easy monitoring and reporting.
