@@ -33,7 +33,7 @@ filtered = []
 for entry in feed.entries:
     title = entry.title
     link = entry.link
-    published_raw = entry.published if hasattr(entry, "published") else date.today().isoformat()
+    published_raw = entry.published if hasattr(entry, "published") else "Unknown"
     published = parser.parse(published_raw).strftime("%Y-%m-%d %H:%M:%S")
     source = entry.source["title"] if "source" in entry else "Unknown"
     category = detect_category(title)
